@@ -28,9 +28,11 @@
       [
         "env",
         {
-          "targets": [{
-            "node": "current"
-          }]
+          "targets": [
+            {
+              "node": "current"
+            }
+          ]
         }
       ]
     ],
@@ -74,5 +76,7 @@
     }
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "jshint": "^2.10.1"
+  }
 }
