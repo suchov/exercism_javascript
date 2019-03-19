@@ -1,5 +1,3 @@
 const GIGASECOND_IN_MILLIS = 1e9 * 1e3;
 
-export const gigasecond = (time) => {
-  return new Date(time.getTime() + GIGASECOND_IN_MILLIS);
-};
+export const gigasecond = time => new Date(time.getTime() + GIGASECOND_IN_MILLIS);
